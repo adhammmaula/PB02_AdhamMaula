@@ -3,7 +3,7 @@
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/25b2f3de-855a-455c-9c08-6e4abfb4ec90" />
 
 Tujuan Program:
-Menampilkan daftar mata kuliah pilihan yang sesuai dengan kriteria mahasiswa, yaitu memiliki maksimal 3 SKS, lalu diurutkan berdasarkan nama secara alfabet
+Menampilkan daftar mata kuliah wajib yang sesuai dengan kriteria mahasiswa, yaitu memiliki maksimal 3 SKS, lalu diurutkan berdasarkan nama secara alfabet
 
 Model Data & Logika Utama:
 Program ini menggunakan data class Course dengan 5 properti, di mana properti lecturer bersifat nullable (String?). Logika utamanya menggunakan collection pipeline (filter, sortedBy, dan map) untuk menyaring data, serta menggunakan Elvis operator (?:) untuk menangani dosen yang nilainya null
